@@ -1,7 +1,6 @@
 import React from "react";
-import Sidebar from "./sidebar/Sidebar";
-import Feed from "./feed/Feed";
-import Widgets from "./widgets/Widgets";
+import Sidebar from "./Sidebar/Sidebar";
+import Feed from "./Feeds/Feed";
 import "./App.css";
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
     <div className="app">
       <Sidebar />
       <Feed />
-      <Widgets />
     </div>
   );
 }
