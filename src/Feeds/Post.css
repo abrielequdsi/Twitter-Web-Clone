@@ -25,6 +25,10 @@
   font-size: 15px;
 }
 
+.post__headerDescription > p {
+  max-width: 530px;
+}
+
 .post__headerText > h3 {
   font-size: 15px;
   margin-bottom: 5px;

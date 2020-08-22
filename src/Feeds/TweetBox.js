@@ -14,7 +14,7 @@ function TweetBox() {
       displayName: "Abriele Qudsi",
       username: "abrielequdsi ",
       image: tweetImage,
-      verifiednp: true,
+      verified: true,
       text: tweetMessage,
       avatar: "https://www.abrielequdsi.com/static/img/foto_prib/13.jpg",
     });
@@ -24,7 +24,7 @@ function TweetBox() {
 
   return (
     <div class="tweetBox">
-      <form action="">
+      <form action="submit" onSubmit={sendTweet}>
         <div class="tweetBox__input">
           <Avatar src="https://www.abrielequdsi.com/static/img/foto_prib/13.jpg" />
           <input
