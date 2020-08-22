@@ -5,12 +5,12 @@
   overflow-y: scroll;
 }
 
-/* Hide scrollbar for Chrome, Safari and Opera */
+/* Keep functionality but Hide scrollbar for Chrome, Safari and Opera */
 .feed::-webkit-scrollbar {
   display: none;
 }
 
-/* Hide scrollbar for IE, Edge and Firefox */
+/* Keep functionality but Hide scrollbar for IE, Edge and Firefox */
 .feed {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
